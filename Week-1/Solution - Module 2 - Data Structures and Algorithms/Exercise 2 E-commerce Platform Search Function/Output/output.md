@@ -1,8 +1,7 @@
 # Terminal 
  Javac Main.java 
  Java Main.java
+ 
+# output
 
-# output 
-
-
-![alt text](image-1.png)
+![alt text](image.png)
