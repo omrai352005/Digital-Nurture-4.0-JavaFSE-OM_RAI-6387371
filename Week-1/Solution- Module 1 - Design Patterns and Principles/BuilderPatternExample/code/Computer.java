@@ -1,4 +1,4 @@
-package BuilderPatternExample.code; 
+// package BuilderPatternExample.code; 
 public class Computer {
     // Required and optional parts
     private String CPU;
