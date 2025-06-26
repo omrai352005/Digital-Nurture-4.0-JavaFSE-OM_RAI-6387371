@@ -20,6 +20,6 @@ EXCEPTION
     WHEN OTHERS THEN
         ROLLBACK;
         v_error_msg := 'UpdateSalary Error: ' || SQLERRM;
-        INSERT INTO Error_Log(ErrorMessage, LogTime) 
+        INSERT INTO Error_Log(ErrorMessage, LogDay ) 
         VALUES (v_error_msg, SYSDATE);
 END;

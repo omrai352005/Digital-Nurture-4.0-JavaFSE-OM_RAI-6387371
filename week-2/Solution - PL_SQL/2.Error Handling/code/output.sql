@@ -36,4 +36,4 @@
     AddNewCustomer(6, 'JOHn Due', TO_DATE('1991-02-01', 'YYYY-MM-DD'), 2500);
 END;
 
---    Select * from CUSTOMERS where CUSTOMERID = 6 ; 
+   Select * from CUSTOMERS where CUSTOMERID = 6 ; 
