@@ -1,0 +1,4 @@
+00:09:10.657 [main] DEBUG org.example.AppenderExample - Debug message - shown in console and saved to file
+00:09:10.662 [main] INFO  org.example.AppenderExample - Info message - application started
+00:09:10.664 [main] WARN  org.example.AppenderExample - Warning message - potential issue detected
+00:09:10.664 [main] ERROR org.example.AppenderExample - Error message - something went wrong
