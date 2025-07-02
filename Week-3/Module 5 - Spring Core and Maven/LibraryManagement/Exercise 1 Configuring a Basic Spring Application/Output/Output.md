@@ -2,7 +2,8 @@
 
 <span style="color:#0096FF;">**Code :** </span>
         
-        For code please refer to the Code folder under :
+        For code please refer to the Code folder under : 
+        
         Week-3\Module 5 - Spring Core and Maven\LibraryManagement\Code
 
 
@@ -13,6 +14,7 @@ Steps:
 1.	Set Up a Spring Project:
 
          o	Create a Maven project named LibraryManagement.
+
          o	Add Spring Core dependencies in the pom.xml file.
 
 <span style="color:#0096FF;">**Output 1** </span>
@@ -20,7 +22,9 @@ Steps:
 ![alt text](IMG/image.png)
 
 2.	Configure the Application Context:
+
         o	Create an XML configuration file named applicationContext.xml in the src/main/resources directory.
+
         o	Define beans for BookService and BookRepository in the XML file.
 
 <span style="color:#0096FF;">**Output 2** </span>
@@ -28,7 +32,9 @@ Steps:
 ![alt text](IMG/image-1.png)
 
 3.	Define Service and Repository Classes:
+
         o	Create a package com.library.service and add a class BookService.
+
         o	Create a package com.library.repository and add a class BookRepository.
 
 <span style="color:#0096FF;">**Output 3** </span>
@@ -37,6 +43,7 @@ Steps:
 ![alt text](IMG/image-3.png)
 
 4.	Run the Application:
+
         o	Create a main class to load the Spring context and test the configuration.
 
 <span style="color:#0096FF;">**Output 4** </span>
