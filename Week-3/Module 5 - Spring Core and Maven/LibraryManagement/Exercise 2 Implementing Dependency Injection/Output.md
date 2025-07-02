@@ -17,7 +17,7 @@ Steps:
         o	Update applicationContext.xml to wire BookRepository into BookService.
 **Output 1**
 
-![alt text](image.png)
+![alt text](IMG/image.png)
 
 2.	Update the BookService Class:
 
@@ -25,7 +25,7 @@ Steps:
 
 **Output 2**
 
-![alt text](image-1.png)
+![alt text](IMG/image-1.png)
 
 3.	Test the Configuration:
 
