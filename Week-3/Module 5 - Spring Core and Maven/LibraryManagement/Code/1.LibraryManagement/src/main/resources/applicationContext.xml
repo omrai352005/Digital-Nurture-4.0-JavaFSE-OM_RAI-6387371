@@ -5,9 +5,11 @@
            http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="bookRepository" class="com.library.LibraryManagement.BookRepository"/>
+    <!-- BookRepository bean -->
+    <bean id="bookRepository" class="com.library.LibraryManagement.repository.BookRepository"/>
 
-    <bean id="bookService" class="com.library.LibraryManagement.BookService">
+    <!-- BookService bean with DI using setter -->
+    <bean id="bookService" class="com.library.LibraryManagement.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
     </bean>
 

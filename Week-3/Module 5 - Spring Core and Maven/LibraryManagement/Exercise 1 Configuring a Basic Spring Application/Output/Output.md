@@ -3,7 +3,7 @@
 <span style="color:#0096FF;">**Code :** </span>
         
         For code please refer to the Code folder under : 
-        
+
         Week-3\Module 5 - Spring Core and Maven\LibraryManagement\Code
 
 
@@ -50,6 +50,3 @@ Steps:
 
 ![alt text](IMG/image-4.png)
 
-<span style="color:#0096FF;">**Output 5: Final ouptut on running the Program** </span>
-
-![alt text](IMG/image-5.png)
