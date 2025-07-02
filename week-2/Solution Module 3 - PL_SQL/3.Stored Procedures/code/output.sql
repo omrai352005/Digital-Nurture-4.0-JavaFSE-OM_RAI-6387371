@@ -20,5 +20,5 @@
 
 -- select * from Accounts;
 
-Exec TRANSFERFUNDS(1,2 , 500 );
--- select * from ACCOUNTS
+Exec TRANSFERFUNDS(2,1 , 500 );
+select * from ACCOUNTS;

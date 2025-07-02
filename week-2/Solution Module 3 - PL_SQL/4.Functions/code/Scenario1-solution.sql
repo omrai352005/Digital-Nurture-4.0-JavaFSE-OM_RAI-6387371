@@ -4,12 +4,11 @@ CREATE or REPLACE PROCEDURE CalculateAge (
 )is
 v_dob DATE;
 BEGIN
-    select DOB into dob 
+    select DOB into v_dob 
     from CUSTOMERS 
     where CUSTOMERID = cuss_id; 
     age := FLOOR(MONTHS_BETWEEN(SYSDATE, v_dob)/12);
-EXCEPTION
-    WHEN NO_DATA_FOUND THEN
-        RETURN NULL;
+
+
 
 end;

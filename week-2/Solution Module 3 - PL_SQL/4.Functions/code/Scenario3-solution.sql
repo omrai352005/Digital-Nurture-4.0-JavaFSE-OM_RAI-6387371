@@ -1,5 +1,5 @@
-create or replace Function HasSufficientBalance (
-    form_acc In number ,
+create or replace Function HasSufficientBalance1 (
+    form_ac In number ,
     amount IN number
 )
 RETURN BOOLEAN
@@ -11,7 +11,7 @@ Begin
 
     select Balance into v_balance 
     from Accounts 
-    where AccountID = form_acc ; 
+    where AccountID = form_ac ; 
 
     return v_balance >= amount; 
 
