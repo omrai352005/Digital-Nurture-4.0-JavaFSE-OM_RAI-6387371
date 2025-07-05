@@ -10,8 +10,8 @@ public class MainApp {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         BookService service = (BookService) context.getBean("bookService");
-        service.addBook("C++ for DSA ");
-        service.addBook("Coding Ninja's");
+        service.addBook("Effective Java");
+        service.addBook("Clean Code");
     }
 }
 
