@@ -1,7 +1,9 @@
 package com.library.LibraryManagement.service;
 
 import com.library.LibraryManagement.repository.BookRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BookService {
 
     private BookRepository bookRepository;

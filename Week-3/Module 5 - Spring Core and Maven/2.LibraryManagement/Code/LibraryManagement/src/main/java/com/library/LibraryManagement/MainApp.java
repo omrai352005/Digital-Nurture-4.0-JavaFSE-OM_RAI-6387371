@@ -1,6 +1,6 @@
 package com.library.LibraryManagement;
 
-import com.library.LibraryManagement.service.BookService;
+import com.library.LibraryManagement.LibraryManagement.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,8 +10,8 @@ public class MainApp {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         BookService service = (BookService) context.getBean("bookService");
-        service.addBook("Effective Java");
-        service.addBook("Clean Code");
+        service.addBook("C++ for DSA ");
+        service.addBook("Coding Ninja's");
     }
 }
 

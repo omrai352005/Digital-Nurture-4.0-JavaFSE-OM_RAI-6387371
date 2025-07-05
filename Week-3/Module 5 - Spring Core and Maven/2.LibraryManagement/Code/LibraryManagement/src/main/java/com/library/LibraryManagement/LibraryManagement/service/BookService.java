@@ -1,6 +1,6 @@
-package com.library.LibraryManagement.service;
+package com.library.LibraryManagement.LibraryManagement.service;
 
-import com.library.LibraryManagement.repository.BookRepository;
+import com.library.LibraryManagement.LibraryManagement.repository.BookRepository;
 
 public class BookService {
 

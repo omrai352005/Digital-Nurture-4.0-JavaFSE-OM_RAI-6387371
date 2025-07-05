@@ -12,11 +12,11 @@
     <aop:aspectj-autoproxy/>
 
     <!-- Beans -->
-    <bean id="bookRepository" class="com.library.LibraryManagement.repository.BookRepository"/>
-    <bean id="bookService" class="com.library.LibraryManagement.service.BookService">
+    <bean id="bookRepository" class="com.library.LibraryManagement.LibraryManagement.repository.BookRepository"/>
+    <bean id="bookService" class="com.library.LibraryManagement.LibraryManagement.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
     </bean>
 
     <!-- Register Logging Aspect -->
-    <bean id="loggingAspect" class="com.library.LibraryManagement.aspect.LoggingAspect"/>
+    <bean id="loggingAspect" class="com.library.LibraryManagement.LibraryManagement.aspect.LoggingAspect"/>
 </beans>

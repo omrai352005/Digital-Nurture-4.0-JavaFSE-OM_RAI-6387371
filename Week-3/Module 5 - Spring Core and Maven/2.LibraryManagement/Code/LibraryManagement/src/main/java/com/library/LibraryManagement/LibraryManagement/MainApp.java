@@ -1,6 +1,6 @@
-package com.library.LibraryManagement;
+package com.library.LibraryManagement.LibraryManagement;
 
-import com.library.LibraryManagement.service.BookService;
+import com.library.LibraryManagement.LibraryManagement.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
