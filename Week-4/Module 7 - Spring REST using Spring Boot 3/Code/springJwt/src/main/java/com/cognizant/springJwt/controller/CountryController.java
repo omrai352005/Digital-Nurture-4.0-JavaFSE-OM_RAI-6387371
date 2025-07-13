@@ -1,11 +1,15 @@
-package com.cognizant.spring_learn.Controller;
+package com.cognizant.springJwt.controller;
 
-import com.cognizant.spring_learn.model.Country;
+import com.cognizant.springJwt.model.Country;
+import com.cognizant.springJwt.service.CountryService;
+import com.cognizant.springJwt.service.exception.CountryNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -36,6 +40,17 @@ public class CountryController {
         ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
         ArrayList<Country> countries = (ArrayList<Country>) context.getBean("countryList");
         return countries;
+    }
+
+
+    //Rest get country based on country code
+
+    @Autowired
+    private CountryService countryService;
+
+    @GetMapping("/Countries/{code}")
+    public Country getCountry(@PathVariable String code) throws CountryNotFoundException {
+        return countryService.getCountry(code);
     }
 
 
