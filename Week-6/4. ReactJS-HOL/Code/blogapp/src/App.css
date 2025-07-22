@@ -1,0 +1,36 @@
+.post-box {
+  border: 2px solid #4a90e2;   /* blue border */
+  padding: 16px;
+  margin: 12px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-body {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+
+}
