@@ -33,7 +33,7 @@ export class Posts extends Component {
     render() {
         return (
             <div>
-                <h1 className='centered'>All Posts</h1>
+                <h1 className="centered">All Posts</h1>
                 {this.state.posts.map(post => (
                     <div className="post-box" key={post.id}>
                         <div className="post-title">{post.title}</div>
